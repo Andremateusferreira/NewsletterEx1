@@ -1,4 +1,4 @@
-<mjml>
+<mjml lang="pt">
 
   <mj-head>
 
@@ -6,10 +6,27 @@
       <mj-text align="center" color="#555" />
       <mj-section background-color="#fff" />
     </mj-attributes>
+    
+    <mj-title>Hello MJML</mj-title>
 
   </mj-head>
 
   <mj-body background-color="#eee">
+    <mj-section>
+
+      <mj-column>
+        <mj-text font-family="Helvetica" color="#F45E43">
+          <a href="https://andremateusferreira.github.io/NewsletterEx1/" target="_blank">
+          <span style="font-size:12px;">
+            Versão online
+          </span>  
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+    
+    
+    
     <mj-section>
 
       <mj-column>
@@ -22,8 +39,27 @@
         <mj-text>
           Second column
         </mj-text>
-      </mj-column>
+      </mj-column> 
 
     </mj-section>
+    
+    <mj-section background-color="#FFF">
+      <mj-column>
+        <mj-button href="www.worten.pt" background-color="#f45e43" color="white">
+          Carrinho de compras HAhaha!!!
+         </mj-button>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#456">
+      <mj-column>
+          <mj-image width="300px" src="img/software-engineer.png"/>
+      </mj-column>
+      
+      <mj-column>
+        <mj-image width="300px" src="img/engineer.png" />
+      </mj-column>
+    </mj-section>
+      
   </mj-body>
 </mjml>
